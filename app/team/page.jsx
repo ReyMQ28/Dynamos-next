@@ -1,3 +1,5 @@
+import Team from "@/components/Team"
+
 export const metadata = {
   title: 'Team',
   description: 'Landing page Dynamos',
@@ -5,7 +7,7 @@ export const metadata = {
 
 function team() {
   return (
-    <div>Team</div>
+    <div><Team /></div>
   )
 }
 

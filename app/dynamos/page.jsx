@@ -1,3 +1,6 @@
+import SomosDynamosNew from "@/components/SomosDynamosNew"
+
+
 export const metadata = {
   title: 'Dynamos',
   description: 'Landing page Dynamos',
@@ -6,7 +9,7 @@ export const metadata = {
 
 function about() {
   return (
-    <div>Dynamos</div>
+    <div><SomosDynamosNew /></div>
   )
 }
 

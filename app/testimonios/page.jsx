@@ -1,3 +1,5 @@
+import Testimonios from "@/components/Testimonios"
+
 export const metadata = {
   title: 'Testimonios',
   description: 'Landing page Dynamos',
@@ -5,7 +7,7 @@ export const metadata = {
 
 function testimonios() {
   return (
-    <div>Testimonios</div>
+    <div><Testimonios /></div>
   )
 }
 

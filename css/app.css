@@ -1,0 +1,38 @@
+body {
+  box-sizing: border-box;
+}
+
+/* Fondo del la card team */
+
+.fondo-oscuro-claro {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(252, 255, 255, 1) 100%);
+}
+
+
+.fondo-oscuro-claro-dark {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(252, 255, 255, 1) 100%);
+}
+
+
+
+.fondo-estandar-claro {
+  background: #ffffff;
+  color: #363636;
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(228, 183, 59, 1) 52%, rgba(0, 0, 0, 1) 100%); */
+}
+
+
+.fondo-estandar-oscuro {
+  background: #111827;
+  color: #e0e0e0;
+  /* background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(228, 183, 59, 1) 52%, rgba(0, 0, 0, 1) 100%); */
+}
+
+
+.imagen-about {
+  background-image: url("../img/somosdynamos/fondodynamos.png");
+}
