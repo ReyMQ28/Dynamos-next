@@ -1,0 +1,104 @@
+body {
+  box-sizing: border-box;
+}
+
+/* Fondo del la card team */
+
+.fondo-oscuro-claro {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(252, 255, 255, 1) 100%);
+}
+
+
+.fondo-oscuro-claro-dark {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(252, 255, 255, 1) 100%);
+}
+
+
+
+.fondo-estandar-claro {
+  background: #ffffff;
+  color: #363636;
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(228, 183, 59, 1) 52%, rgba(0, 0, 0, 1) 100%); */
+}
+
+
+.fondo-estandar-oscuro {
+  background: #111827;
+  color: #e0e0e0;
+  /* background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(228, 183, 59, 1) 52%, rgba(0, 0, 0, 1) 100%); */
+}
+
+
+.imagen-about {
+  background-image: url("../img/somosdynamos/fondo-pendon.png");
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+
+.scrol-img {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+
+  animation-timeline: --image;
+  animation-name: show;
+
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
+}
+
+.hexagono2 {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-image: url(../img/somosdynamos/objgeneral2.png);
+  filter:brightness(0.4)
+  
+}
+
+.hexagono1 {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hexagono4 {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-image: url(../img/somosdynamos/objgeneral1.png);
+  
+}
+
+.hexagono3 {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.hexagono5 {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 100% 50%, 0 50%, 0% 50%);
+  background-image: url(../img/somosdynamos/objgeneral1.png);
+}
+
+.hexagono6 {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-image: url(../img/somosdynamos/objgeneral2.png);
+}
+
+.trapecio {
+  clip-path: polygon(0 0, 100% 0, 100% 40%, 8% 40%);
+}
+
+.trapecio2 {
+clip-path: polygon(8% 0, 100% 0, 100% 39%, 0 40%);
+}
+
+.sombraText{
+  text-shadow:2PX 2PX 12PX darkgoldenrod   ;
+}

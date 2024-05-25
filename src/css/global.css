@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+@media (max-width: 391px) {
+  #roksearch_results {
+    display: none;
+  }
+}
+
+
+/* Fondo del la card team */
+
+.fondo-oscuro-claro {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(252, 255, 255, 1) 100%);
+}
+
+
+.fondo-oscuro-claro-dark {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(252, 255, 255, 1) 100%);
+}
+
+
+
+.fondo-estandar-claro {
+  background: #fff;
+  color: #000;
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(228, 183, 59, 1) 52%, rgba(0, 0, 0, 1) 100%); */
+}
+
+
+.fondo-estandar-oscuro {
+  background: #111827;
+  color: #fff;
+  /* background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(228, 183, 59, 1) 52%, rgba(0, 0, 0, 1) 100%); */
+}
+
+
+.imagen-about {
+  background-image: url("../img/somosdynamos/fondo-pendon.png");
+}
+
