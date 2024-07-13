@@ -15,16 +15,10 @@ const NewBienvenida = () => {
       } lg:h-[750px] md:h-screen sm:h-72 md:mt-0 sm:mt-12 sm:pb-20`}
     >
       <div className="absolute lg:top-80 md:top-64 sm:top-36 lg:left-32 md:left-32 sm:left-6 flex flex-row justify-center items-center">
-        <div className={`lg:p-10 md:p-10 sm:p-4 rounded-full
-        ${
-          darkMode ? "bg-gray-800/50" : "bg-white/50"
-        }`}>
+        <div className={`bg-white/50 dark:bg-gray-900/50 lg:p-10 md:p-10 sm:p-4 rounded-full`}>
           <Image src={logoDynamos} alt="" className="lg:w-32 md:w-32 sm:w-10" />
         </div>
-        <h2 className={`lg:text-9xl md:text-9xl font-extrabold sm:text-3xl sm:text-center lg:-ml-8 md:l-8 sm:-ml-4
-        ${
-          darkMode ? "text-white" : "text-black"
-        }`}>
+        <h2 className={`lg:text-9xl md:text-9xl font-extrabold sm:text-3xl sm:text-center text-white sm:text-black dark:sm:text-white lg:-ml-8 md:l-8 sm:-ml-4`}>
           ynamos
         </h2>
       </div>

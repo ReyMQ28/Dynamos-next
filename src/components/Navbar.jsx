@@ -16,9 +16,7 @@ function BarraDeNavegacion() {
   return (
     <div className="flex flex-col justify-start items-start z-50 ">
       <div
-        className={`w-full h-12 flex flex-row items-center lg:justify-around md:justify-around sm:justify-between border-b-2 z-10 fixed ${
-          darkMode ? "bg-gray-900/50 text-white border-gray-500" : "bg-white/50 border-gray-200 text-black"
-        }`}
+        className={`w-full h-12 flex flex-row items-center lg:justify-around md:justify-around sm:justify-between dark:text-white border-gray-200 dark:border-gray-500 border-b-2 z-10 fixed bg-white/50 dark:bg-gray-900/50`}
       >
         {/* Imagen principal */}
         <Link href={"/"}>

@@ -1,4 +1,5 @@
 import {
+  Button,
   Drawer,
   DrawerBody,
   DrawerCloseButton,
@@ -17,10 +18,11 @@ function DrawerEventos({ imagenes: imagen, datosEvento }) {
 
   return (
     <>
-      <button
-      className="bg-slate-200/50 rounded-lg py-2 px-4 font-semibold text-black"
-      onClick={onOpen}>Ver más</button>
-
+      <Button
+        onClick={onOpen}
+        className="text-black text-5xl justify-end cursor-pointer hover:text-white"
+        _hover={{ bg: darkMode ? "red.500" : "blue.500" }}
+      >Ver mas</Button>
 
       <Drawer
         isOpen={isOpen}
@@ -43,5 +45,6 @@ function DrawerEventos({ imagenes: imagen, datosEvento }) {
     </>
   );
 }
+
 
 export default DrawerEventos;
